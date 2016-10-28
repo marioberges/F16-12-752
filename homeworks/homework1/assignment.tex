@@ -1,0 +1,45 @@
+\documentclass[times, 12pt, singlecolumn]{article}
+
+\usepackage[paper=letterpaper,
+	    marginparwidth=0in,
+	    marginparsep=0in,
+	    margin=0.8in,
+	    top=0.5in,
+	    bottom=0.5in]{geometry}
+\usepackage{calc}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+
+\title{12-752: Data Acquisition\\ Assignment\#1\\\quad \\Due: Thursday Nov. 3 by 12:00pm on Blackboard}
+
+\begin{document}
+
+\maketitle
+
+This assignment mainly deals with setting up Python, Anaconda and the related packages. It will also ensure that you know basic Python by going through exercises that require the knowledge.
+
+\section{Installing anaconda}
+
+In this course, you will be asked to implement code in Python. In order to ensure compatability of your code, we need to ensure that we are all working with the same Python version. We will work with a pre-packaged Python distribution called `Anaconda'.\\
+
+Follow the instructions on \textcolor{blue}{\href{https://www.continuum.io/downloads}{here}} and install Anaconda with the \textbf{Python version 3.5}(!!).
+
+
+\section{Installing additional packages}
+A very handy package for data analysis is `sklearn' (scikit-learn). Follow  \textcolor{blue}{\href{http://conda.pydata.org/docs/test-drive.html\#managing-packages}{these instructions}} to install the package \emph{scikit-learn}.
+
+\newpage
+\section{Jupyter Notebooks}
+The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. You will be asked to hand in your homeworks as Jupyter notebooks. Let's make sure you have a basic understanding of notebooks. \\
+
+Create a directory where you are planning on putting your homeworks. Open a terminal and navigate to that directory. Check out the  \textcolor{blue}{\href{https://github.com/marioberges/F16-12-752}{git-repository}} for this course. Consult the  \textcolor{blue}{\href{https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf}{git cheat sheet}} if you need help using git. Once you have successfully cloned the repository, open a terminal (or command prompt depending on your OS) and run the command ``jupyter notebook''. Your web browser should now open and the Jupyter webpage should be displayed. Select the Jupyter notebook for the first homework (exercise0.ipnb) and open it in the web interface. Follow the instructions in the notebook. In the end, save the notebook and download it as a Notebook file (.ipynb extension) and upload it to Blackboard.
+
+
+\end{document}
