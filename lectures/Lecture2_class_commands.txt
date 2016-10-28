@@ -1,0 +1,26 @@
+  513  clear
+  514  cd ~/tmp
+  515  clear
+  516  pwd
+  517  git clone git@github.com:marioberges/F16-12-752.git
+  518  cd F16-12-752/
+  519  ls -l
+  520  git help
+  521  git help clone
+  522  clear
+  523  ls -l
+  524  cd lectures
+  525  ls -l
+  526  jupyter notebook
+  527  clear
+  528  ipython
+  529  jupyter notebok
+  530  jupter notebook
+  531  jupyter notebook
+  532  ls -l
+  533  git add Lecture3.ipynb 
+  534  git commit -m "Tried adding a dummy Lecture 3"
+  535  git help commit
+  536  git push origin master
+  537  history | tail -50
+  538  history | tail -50 > last_commands.txt
