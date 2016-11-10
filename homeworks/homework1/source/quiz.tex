@@ -1,0 +1,48 @@
+\documentclass[times, 12pt, singlecolumn]{article}
+
+\usepackage[paper=letterpaper,
+	    marginparwidth=0in,
+	    marginparsep=0in,
+	    margin=0.8in,
+	    top=0.5in,
+	    bottom=0.5in]{geometry}
+\usepackage{calc}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+
+\title{12-752: Data-Driven Building Energy Management\\ Quiz\#1}
+
+\begin{document}
+
+\maketitle
+
+\section{Python test}
+
+Find the errors (and circle them):
+
+\begin{verbatim}
+d = [] #creating empty dictionary
+print('Empty dictionary:')
+print(d)
+
+d['author'] = 'Shakespeare' #adding an item to the dictionary
+print('Dictionary with one element')
+print(d)
+
+#adding more items:
+d['year'] = [1596,1954]
+d['title'] = 'The merchant of Venice'
+
+#Accessing items in dictionary:
+print_string = d['title'] + ' was written in the year ' + str(d['year'])
+print(print_string)
+\end{verbatim}
+
+\end{document}

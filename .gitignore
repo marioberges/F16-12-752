@@ -87,3 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# LaTeX Junk
+*.out
+*.aux
