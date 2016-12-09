@@ -1,0 +1,5 @@
+The Center for Sustainable Landscape (CSL) building was opened in Dec 2012. It is a
+two-level office building, with total floor area around 2000 m2. It has one AHU serving 
+the whole building, and the terminal air distribution system is VAV with no reheat.
+The target room of this project is room 107N. This area is office+corridor. The population
+is 2-3 people. 
