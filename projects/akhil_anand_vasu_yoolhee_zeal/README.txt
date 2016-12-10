@@ -1,0 +1,2 @@
+README before running the any jupyter notebook:
+The jupyter notebooks are named according to the Sections they contributed to in the report. The FinalProject.ipynb extracts the data from the DRED dataset (present in dataset-dred folder in the same directory) and this module is extracted as a python script and saved as data.py. In all other jupyter notebook files, we are import this data module to have access to the DataFrames created. DRED dataset obtains their occupancy data from wifi and bluetooth beacons and hence it is different from the model we have used. 
